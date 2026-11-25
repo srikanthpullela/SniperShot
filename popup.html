@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SniperShot</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="core.js" defer></script>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="icons/icon48.png" width="48" height="48" alt="">
+      <div>
+        <div class="eyebrow">YOUR PAGE. YOUR MISSION.</div>
+        <h1>SNIPER<span>SHOT</span></h1>
+      </div>
+    </header>
+    <p>Enemies are hiding in plain sight. Spare the civilians, stop the bombers, take the headshot.</p>
+    <div id="career" hidden></div>
+    <button id="toggle" type="button" disabled>Checking page...</button>
+    <p id="status" role="status" aria-live="polite"></p>
+    <div class="controls"><span><b>RIGHT-CLICK</b> scope</span><span><b>CLICK</b> fire</span><span><b>SHIFT</b> breath</span><span><b>R</b> reload</span><span><b>ESC</b> exit</span></div>
+    <small>Runs locally on the current page. Only your rank and best score are saved, on this device.</small>
+  </main>
+</body>
+</html>
